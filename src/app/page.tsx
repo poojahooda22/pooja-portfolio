@@ -12,7 +12,7 @@ export default function Home() {
           <a
             
            
-            target="_blank"
+            
             rel="noopener noreferrer"
           >
             
