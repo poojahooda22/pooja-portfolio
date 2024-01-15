@@ -18,7 +18,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       <div className="grid min-h-[70vh grid-cols-1 md:grid-cols-2 items-center">
         <div className="col-start-1 md:row-start-1">
           <h1
-            className="mb-8 text-[clamp(3rem, 20vmin, 20rem)] font-extrabold" 
+            className="mb-8 text-[clamp(3rem, 20vmin, 20rem)] font-extrabold loading-none tracking-tighter" 
             aria-label={slice.primary.first_name + " " + slice.primary.last_name }
           >
             
