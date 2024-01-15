@@ -21,7 +21,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             className="mb-8 text-[clamp(3rem, 20vmin, 20rem)] font-extrabold loading-none tracking-tighter" 
             aria-label={slice.primary.first_name + " " + slice.primary.last_name }
           >
-            <span>
+            <span className="block text-slate-300">
               {slice.primary.tag_line}
             </span>
             
