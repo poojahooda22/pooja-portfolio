@@ -28,7 +28,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
               {slice.primary.last_name}
             </span>
           </h1>
-          <span className="block bg-gray-200">
+          <span className="block bg-gradient-to-tr">
             {slice.primary.tag_line}
           </span>
         </div>
