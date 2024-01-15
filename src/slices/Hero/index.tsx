@@ -16,10 +16,10 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-variation={slice.variation}
     >
       <div className="grid min-h-[70vh grid-cols-1 md:grid-cols-2 items-center">
-        <div>
+        <div className="col-start-1 md:row-start-1">
           <h1
             className="" 
-            aria-label={slice.primary.first_name}
+            aria-label={slice.primary.first_name + " " + slice.primary.last_name }
           >
             
           </h1>
