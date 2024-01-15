@@ -28,7 +28,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
               {slice.primary.last_name}
             </span>
           </h1>
-          
+          <h1>{slice.primary.tag_line}</h1>
         </div>
       </div>
       {/* <>{slice.primary.first_name}</> */}
