@@ -17,7 +17,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
     >
       {/* <>{slice.primary.first_name}</> */}
       {/* <>{slice.primary.last_name}</> */}
-      <>{slice.primary.tag_line}</>
+      {/* <>{slice.primary.tag_line}</> */}
     </section>
   );
 };
