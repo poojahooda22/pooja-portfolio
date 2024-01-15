@@ -22,7 +22,10 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
             aria-label={slice.primary.first_name + " " + slice.primary.last_name }
           >
             <span className="block text-slate-300">
-              {slice.primary.tag_line}
+              {slice.primary.first_name}
+            </span>
+            <span className="block text-slate-300">
+              {slice.primary.last_name}
             </span>
             
           </h1>
