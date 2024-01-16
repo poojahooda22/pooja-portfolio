@@ -19,3 +19,6 @@ const Bounded = React.forwardRef<HTMLDivElement, BoundedProps> (
         )
     }
 )
+
+Bounded.displayName = "Bounded";
+
