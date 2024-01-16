@@ -1,4 +1,4 @@
-import Recat from 'react';
+import React from 'react';
 
 type BoundedProps = {
     as?: React.ElementType;
