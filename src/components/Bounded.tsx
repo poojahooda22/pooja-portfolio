@@ -2,6 +2,8 @@ import Recat from 'react';
 
 type BoundedProps = {
     as?: React.ElementType;
+    className?: string;
+    children: React.ReactNode;
 }
 
 const Bounded = React.forwardRef<HTMLDivElement, BoundedProps> (
