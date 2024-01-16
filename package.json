@@ -13,6 +13,7 @@
     "@prismicio/client": "^7.3.1",
     "@prismicio/next": "^1.5.0",
     "@prismicio/react": "^2.7.3",
+    "clsx": "^2.1.0",
     "gsap": "^3.12.4",
     "next": "14.0.4",
     "react": "^18",
