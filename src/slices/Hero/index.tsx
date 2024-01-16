@@ -51,7 +51,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         opacity: 1,
         scale: 1,
         duration: 1,
-        ease: "bounce.in", 
+        ease: "elastic.out(1,0.2)",
       })
     }, component);
     return () => ctx.revert();
