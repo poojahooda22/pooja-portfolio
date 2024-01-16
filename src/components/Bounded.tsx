@@ -19,9 +19,9 @@ const Bounded = React.forwardRef<HTMLDivElement, BoundedProps> (
                     {children}
                 </div>
             </Comp>
-        )
+        );
     }
-)
+);
 
 Bounded.displayName = "Bounded";
 
