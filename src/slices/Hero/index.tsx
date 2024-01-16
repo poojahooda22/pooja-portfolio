@@ -41,6 +41,14 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
           }
         }
       );
+
+      tl.fromTo(".job-title", {
+        y: 20,
+        opacity: 0,
+        scale: 1.2,
+      }, {
+         
+      })
     }, component);
     return () => ctx.revert();
   }, []);
