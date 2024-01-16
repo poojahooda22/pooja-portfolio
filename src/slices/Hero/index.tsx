@@ -47,7 +47,11 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         opacity: 0,
         scale: 1.2,
       }, {
-         
+        y: 0,
+        opacity: 1,
+        scale: 1,
+        duration: 1,
+        ease: "elastic.out(1,0.4)", 
       })
     }, component);
     return () => ctx.revert();
