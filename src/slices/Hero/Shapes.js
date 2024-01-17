@@ -8,5 +8,11 @@ import { Suspense, useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 
 export function Shapes() {
-    
+    return (
+        <div>
+            <Canvas>
+                
+            </Canvas>
+        </div>
+    )
 }
