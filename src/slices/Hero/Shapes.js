@@ -14,7 +14,10 @@ export function Shapes() {
                 <Suspense fallback={null}>
                     <ContactShadows
                         posiiton={[0, -3.5, 0]}
-                        
+                        opacity={0.65}
+                        scale={40}
+                        blur={1}
+                        far={9}
                     />
                 </Suspense>
             </Canvas>
