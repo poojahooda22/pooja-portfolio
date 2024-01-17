@@ -6,3 +6,7 @@ import { ContactShadows, Float, Environment } from "@react-three/drei";
 
 import { Suspense, useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
+
+export function Shapes() {
+    
+}
