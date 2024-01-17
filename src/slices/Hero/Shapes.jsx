@@ -36,4 +36,8 @@ function Geometries() {
             geometry: new THREE.IcosahedronGeometry(3), //gem
         },
     ];
+
+    const materials = [
+        new THREE.MeshStandardMaterial()
+    ]
 }
