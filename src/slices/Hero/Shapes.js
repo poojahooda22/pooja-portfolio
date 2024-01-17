@@ -19,6 +19,9 @@ export function Shapes() {
                         blur={1}
                         far={9}
                     />
+                    <Environment
+
+                    />
                 </Suspense>
             </Canvas>
         </div>
