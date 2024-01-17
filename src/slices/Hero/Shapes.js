@@ -20,7 +20,7 @@ export function Shapes() {
                         far={9}
                     />
                     <Environment
-
+                        preset="studio"
                     />
                 </Suspense>
             </Canvas>
