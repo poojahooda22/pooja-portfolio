@@ -9,9 +9,9 @@ import { gsap } from 'gsap';
 
 export function Shapes() {
     return (
-        <div>
+        <div className='row-span-1 row-start-1 -mt-9'>
             <Canvas>
-                
+
             </Canvas>
         </div>
     )
