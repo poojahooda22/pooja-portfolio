@@ -45,4 +45,4 @@ function Geometries() {
 }
 
 
-function Geometry({r, position})
+function Geometry({r, position, geometry})
