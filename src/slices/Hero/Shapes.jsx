@@ -40,4 +40,6 @@ function Geometries() {
     const materials = [
         new THREE.MeshStandardMaterial()
     ]
+
+    //pass to geometry
 }
