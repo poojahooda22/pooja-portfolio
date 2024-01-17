@@ -25,5 +25,14 @@ export default function Shapes() {
                 </Suspense>
             </Canvas>
         </div>
-    )
+    );
+}
+
+function Geometries() {
+    const geometries = [
+        {
+            position: [0,0,0],
+            
+        }
+    ]
 }
