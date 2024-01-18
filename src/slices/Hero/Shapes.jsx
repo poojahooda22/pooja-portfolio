@@ -47,7 +47,7 @@ function Geometries() {
           {
             position: [-1.4, 2, -4],
             r: 0.6,
-            geometry: new THREE.DodecahedronGeometry(1.8), 
+            geometry: new THREE.DodecahedronGeometry(1.8), // Soccer ball
           },
           {
             position: [-0.8, -0.75, 5],
