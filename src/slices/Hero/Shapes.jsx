@@ -96,7 +96,7 @@ function Geometries() {
           r={r}
         />
     ));
-}
+};
 
 
 function Geometry({ r, position, geometry, soundEffects, materials }) {
