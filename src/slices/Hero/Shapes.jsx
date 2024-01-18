@@ -88,7 +88,7 @@ function Geometries() {
 
     return geometries.map(({ position, r, geometry }) => (
         <Geometry
-          key={JSON.stringify(position)} // 
+          key={JSON.stringify(position)} // Unique key
           position={position.map((p) => p * 2)}
           geometry={geometry}
         //   soundEffects={soundEffects}
