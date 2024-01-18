@@ -37,7 +37,7 @@ function Geometries() {
         {
             position: [0, 0, 0],
             r: 0.6,
-            geometry: new THREE.IcosahedronGeometry(2.5), 
+            geometry: new THREE.IcosahedronGeometry(2.5), // Gem
           },
           {
             position: [1, -0.75, 4],
