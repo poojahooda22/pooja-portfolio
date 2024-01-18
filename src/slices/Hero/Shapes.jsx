@@ -155,7 +155,7 @@ function Geometry({ r, position, geometry, soundEffects, materials }) {
               onClick={handleClick}
               onPointerOver={handlePointerOver}
               onPointerOut={handlePointerOut}
-              visible={}
+              visible={visible}
               material={startingMaterial}
             ></mesh>
           </Float>
