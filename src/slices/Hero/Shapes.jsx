@@ -148,7 +148,7 @@ function Geometry({ r, position, geometry, soundEffects, materials }) {
       }, []);
 
     return (
-        <group position={position} ref={}>
+        <group position={position} ref={meshRef}>
           <Float speed={5 * r} rotationIntensity={6 * r} floatIntensity={5 * r}>
             <mesh
               geometry={geometry}
