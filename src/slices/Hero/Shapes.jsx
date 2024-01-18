@@ -161,4 +161,4 @@ function Geometry({ r, position, geometry, soundEffects, materials }) {
           </Float>
         </group>
       );
-}
+};
