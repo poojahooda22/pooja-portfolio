@@ -57,7 +57,7 @@ function Geometries() {
           {
             position: [1.6, 1.6, -4],
             r: 0.7,
-            geometry: new THREE.OctahedronGeometry(2), 
+            geometry: new THREE.OctahedronGeometry(2), // Diamond
           },
           {
             position: [2,1, 1.9, -1],
