@@ -93,7 +93,7 @@ function Geometries() {
           geometry={geometry}
         //   soundEffects={soundEffects}
           materials={materials}
-          // r={r}
+          r={r}
         />
     ));
 }
