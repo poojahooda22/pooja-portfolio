@@ -79,7 +79,7 @@ function Geometries() {
             color: 0x2980b9,
         }),
         new THREE.MeshStandardMaterial({
-            // color: 0x2c3e50,
+            color: 0x2c3e50,
             roughness: 0.1,
             metalness: 0.5,
         }),
@@ -93,7 +93,7 @@ function Geometries() {
           geometry={geometry}
         //   soundEffects={soundEffects}
           materials={materials}
-          r={r}
+          // r={r}
         />
     ));
 }
