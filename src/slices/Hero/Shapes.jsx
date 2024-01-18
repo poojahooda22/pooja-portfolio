@@ -37,7 +37,7 @@ function Geometries() {
         {
             position: [0, 0, 0],
             r: 0.6,
-            geometry: new THREE.IcosahedronGeometry(2.5), // Gem
+            geometry: new THREE.IcosahedronGeometry(2.5), 
           },
           {
             position: [1, -0.75, 4],
@@ -95,8 +95,8 @@ function Geometries() {
           materials={materials}
           r={r}
         />
-      ));
-    }
+    ));
+}
 
 
 function Geometry({ r, position, geometry, soundEffects, materials }) {
@@ -161,4 +161,4 @@ function Geometry({ r, position, geometry, soundEffects, materials }) {
           </Float>
         </group>
       );
-    }
+}
