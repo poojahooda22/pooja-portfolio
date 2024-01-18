@@ -30,7 +30,7 @@ export default function Shapes() {
       </Canvas>
     </div>
   );
-}
+};
 
 function Geometries() {
     const geometries = [
