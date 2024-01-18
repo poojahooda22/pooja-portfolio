@@ -52,7 +52,7 @@ function Geometries() {
           {
             position: [-0.8, -0.75, 5],
             r: 0.5,
-            geometry: new THREE.TorusGeometry(0.6, 0.25, 16, 32), 
+            geometry: new THREE.TorusGeometry(0.6, 0.25, 16, 32), // Donut
           },
           {
             position: [1.6, 1.6, -4],
