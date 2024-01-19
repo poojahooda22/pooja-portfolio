@@ -95,7 +95,7 @@ function Geometries() {
           key={JSON.stringify(position)} // Unique key
           position={position.map((p) => p * 2)}
           geometry={geometry}
-        //   soundEffects={soundEffects}
+          soundEffects={soundEffects}
           materials={materials}
           r={r}
         />
