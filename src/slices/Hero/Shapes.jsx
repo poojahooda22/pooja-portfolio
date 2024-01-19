@@ -116,7 +116,7 @@ function Geometry({ r, position, geometry, soundEffects, materials }) {
     function handleClick(e) {
         const mesh = e.object;
 
-        gsap.utils.random()
+        gsap.utils.random(soundEffects)
 
         gsap.to(mesh.rotation, {
             x: `+=${gsap.utils.random(0, 2)}`,
