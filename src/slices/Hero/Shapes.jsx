@@ -62,7 +62,7 @@ function Geometries() {
           {
             // position: [2,1, 1.9, -1],
             // r: 0.8,
-            geometry: new THREE.TorusKnotGeometry( 0.7, 0.3, 92, 13 )
+            // geometry: new THREE.TorusKnotGeometry( 0.7, 0.3, 92, 13 )
           }
     ];
 
