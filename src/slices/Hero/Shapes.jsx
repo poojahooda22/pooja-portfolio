@@ -60,7 +60,7 @@ function Geometries() {
             geometry: new THREE.OctahedronGeometry(2), // Diamond
           },
           {
-            position: [2,1, 1.9, -1],
+            // position: [2,1, 1.9, -1],
             r: 0.8,
             geometry: new THREE.TorusKnotGeometry( 0.7, 0.3, 92, 13 )
           }
