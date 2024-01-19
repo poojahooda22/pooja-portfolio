@@ -85,9 +85,9 @@ function Geometries() {
         }),
     ];
 
-    const soundEffects = [
-      new Audio("/sounds/Preview.ogg"),
-    ];
+    // const soundEffects = [
+    //   new Audio("/sounds/Preview.ogg"),
+    // ];
    
 
     return geometries.map(({ position, r, geometry }) => (
