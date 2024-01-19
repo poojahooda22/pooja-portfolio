@@ -84,6 +84,10 @@ function Geometries() {
             metalness: 0.5,
         }),
     ];
+
+    const soundEffects = [
+
+    ];
    
 
     return geometries.map(({ position, r, geometry }) => (
