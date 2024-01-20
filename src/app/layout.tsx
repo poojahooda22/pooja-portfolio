@@ -17,8 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='bg-slate-900 text-slate-100'>
+      
+      <body className={inter.className}>
       <Header />
-      <body className={inter.className}>{children}</body>
+        {children}
+      </body>
     </html>
   )
 }
