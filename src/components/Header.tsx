@@ -7,6 +7,13 @@ export default async function Header() {
 
     return (
         <header className='top-0 z-50 mx-auto max-w-7xl md:sticky md:top-4'>
+            <nav>
+                <ul>
+                    <li>
+                        <Link href="/"></Link>
+                    </li>
+                </ul>
+            </nav>
 
         </header>
     )
