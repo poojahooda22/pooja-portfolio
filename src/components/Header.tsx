@@ -6,6 +6,8 @@ export default async function Header() {
     const settings = await client.getSingle("settings");
 
     return (
-        
+        <header>
+            
+        </header>
     )
 }
