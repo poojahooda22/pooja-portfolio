@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Urbanist } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/Header'
 
 const inter = Urbanist({ subsets: ['latin'] })
 
@@ -16,6 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='bg-slate-900 text-slate-100'>
+      <Header />
       <body className={inter.className}>{children}</body>
     </html>
   )
