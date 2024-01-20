@@ -16,11 +16,9 @@ export default async function Header() {
                         </Link>
 
                     </li>
-                    {/* {settings.data.nav_item.map(({link, label}) => (
-                        <li>
-
-                        </li>
-                    ))} */}
+                    {settings.data.nav_item.map(({link, label}) => (
+                        
+                    ))}
                 </ul>
             </nav>
 
