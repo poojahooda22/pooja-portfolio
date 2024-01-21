@@ -1,3 +1,4 @@
+import Bounded from "@/components/Bounded";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 
@@ -11,12 +12,12 @@ export type BiographyProps = SliceComponentProps<Content.BiographySlice>;
  */
 const Biography = ({ slice }: BiographyProps): JSX.Element => {
   return (
-    <section
+    <Bounded
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
       Placeholder component for biography (variation: {slice.variation}) Slices
-    </section>
+    </Bounded>
   );
 };
 
