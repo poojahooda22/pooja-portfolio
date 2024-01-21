@@ -63,7 +63,6 @@ function Geometries() {
 
   const soundEffects = [
     new Audio("/sounds/Preview.ogg"),
-    
   ];
 
   const materials = [
