@@ -14,9 +14,10 @@ export default async function Header() {
                         <Link href="/" aria-label="Home Page">
                             {settings.data.name}
                         </Link>
-
-                    </li>
-                    
+                    </li>   
+                    {settings.data.nav_item.map(({link, label}) => (
+                        
+                    ))}                
                 </ul>
             </nav>
 
