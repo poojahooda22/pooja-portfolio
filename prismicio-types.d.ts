@@ -290,6 +290,61 @@ export type AllDocumentTypes =
   | SettingsDocument;
 
 /**
+ * Primary content in *Biography → Primary*
+ */
+export interface BiographySliceDefaultPrimary {
+  /**
+   * Heading field in *Biography → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: biography.primary.heading
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  heading: prismic.KeyTextField;
+
+  /**
+   * Description field in *Biography → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: biography.primary.description
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Button Text field in *Biography → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: biography.primary.button_text
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  button_text: prismic.KeyTextField;
+
+  /**
+   * Button Link field in *Biography → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: biography.primary.button_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  button_link: prismic.LinkField;
+
+  /**
+   * Avatar field in *Biography → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: biography.primary.avatar
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  avatar: prismic.ImageField<never>;
+}
+
+/**
  * Default variation for Biography Slice
  *
  * - **API ID**: `default`
@@ -298,7 +353,7 @@ export type AllDocumentTypes =
  */
 export type BiographySliceDefault = prismic.SharedSliceVariation<
   "default",
-  Record<string, never>,
+  Simplify<BiographySliceDefaultPrimary>,
   never
 >;
 
@@ -402,6 +457,7 @@ declare module "@prismicio/client" {
       SettingsDocumentDataNavItemItem,
       AllDocumentTypes,
       BiographySlice,
+      BiographySliceDefaultPrimary,
       BiographySliceVariation,
       BiographySliceDefault,
       HeroSlice,
