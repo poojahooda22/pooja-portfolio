@@ -15,7 +15,7 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for biography (variation: {slice.variation}) Slices
+      Placeholder component for biography (variation: {slice.variation}) 
     </section>
   );
 };
