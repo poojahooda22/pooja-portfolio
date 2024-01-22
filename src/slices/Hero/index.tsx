@@ -67,7 +67,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         key={index}
         className={`name-animation name-animation-${key} inline-block opacity-0`}
       >
-        {letter}
+        {/* {letter} */}
       </span>
     ));
   };
