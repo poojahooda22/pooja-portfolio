@@ -80,7 +80,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       ref={component}
     >
       <div 
-      className="grid min-h-[70vh] 
+        className="grid min-h-[70vh] 
       grid-cols-1 md:grid-cols-1 items-center">
         <Shapes />
         <div className="col-start-1 md:row-start-1">
