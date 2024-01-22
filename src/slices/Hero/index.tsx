@@ -84,9 +84,9 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         <div className="col-start-1 md:row-start-1">
           <h1
             className="mb-8 text-[clamp(3rem,20vmin,20rem)] font-extrabold leading-none tracking-tighter" 
-            aria-label={
-              slice.primary.first_name + " " + slice.primary.last_name 
-            }
+            // aria-label={
+            //   slice.primary.first_name + " " + slice.primary.last_name 
+            // }
           >
             <span className="block text-slate-300">
               {renderLetters(slice.primary.first_name, "first")}
