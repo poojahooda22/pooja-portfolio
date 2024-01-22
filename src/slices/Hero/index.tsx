@@ -76,7 +76,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
   return (
     <Bounded
       data-slice-type={slice.slice_type}
-      // data-slice-variation={slice.variation}
+      data-slice-variation={slice.variation}
       ref={component}
     >
       <div className="grid min-h-[70vh] grid-cols-1 md:grid-cols-1 items-center">
