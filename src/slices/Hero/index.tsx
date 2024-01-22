@@ -85,7 +85,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
         <Shapes />
         <div 
           className="col-start-1 md:row-start-1"
-          >
+        >
           <h1
             className="mb-8 text-[clamp(3rem,20vmin,20rem)] 
             font-extrabold leading-none tracking-tighter" 
