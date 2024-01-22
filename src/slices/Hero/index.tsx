@@ -75,7 +75,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
 
   return (
     <Bounded
-      // data-slice-type={slice.slice_type}
+      data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       ref={component}
     >
