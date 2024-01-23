@@ -21,7 +21,7 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
         <Heading as="h1" size="xl" className="col-start-1">
           {slice.primary.heading}
         </Heading>
-        <div className="prose prose-xl prose-slate prose-invert">
+        <div className="prose prose-xl prose-slate prose-invert col-start-1">
 
         </div>
         
