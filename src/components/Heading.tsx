@@ -22,7 +22,8 @@ export default function Heading({
                 size === "xl" && "text-7xl md:text-9xl",
                 size === "lg" && "text-6xl md:text-6xl",
                 size === "md" && "text-5xl md:text-6xl",
-                
+                size === "sm" && "text-3xl md:text-4xl",
+                className,
             )}
         >
 
