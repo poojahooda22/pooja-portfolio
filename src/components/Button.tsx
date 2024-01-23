@@ -12,6 +12,6 @@ type ButtonProps = {
 export default function Button ({
     linkField,
     label, 
-    showIcon = true,
-
+    showIcon,
+    className,
 })
