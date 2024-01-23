@@ -4,5 +4,5 @@ import clsx from "clsx";
 
 type ButtonProps = {
     linkField: LinkField;
-    label: 
+    label: KeyTextField;
 }
