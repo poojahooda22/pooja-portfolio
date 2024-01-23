@@ -16,7 +16,11 @@ export default function Heading({
 
 }: HeadingProps) {
     return (
-        <Comp>
+        <Comp
+            className={clsx(
+                "font-bold"
+            )}
+        >
 
         </Comp>
     )
