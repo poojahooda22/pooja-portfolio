@@ -6,5 +6,15 @@ type HeadingProps = {
     sixe?: "xl" | "lg" | "md" | "sm";
     children: React.ReactNode;
     className?: string;
+};
+
+export default function Heading({
+    as: Comp = "h1",
+    className,
+    children,
+    size = "lg",
+
+}: HeadingProps) {
+    
 }
 
