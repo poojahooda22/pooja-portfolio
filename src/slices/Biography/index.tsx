@@ -1,6 +1,6 @@
 import Bounded from "@/components/Bounded";
 import { Content } from "@prismicio/client";
-import { SliceComponentProps } from "@prismicio/react";
+import { SliceComponentProps, PrismicRichText } from "@prismicio/react";
 import Heading from "@/components/Heading";
 
 /**
