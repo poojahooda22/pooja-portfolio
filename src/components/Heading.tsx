@@ -26,7 +26,7 @@ export default function Heading({
                 className,
             )}
         >
-
+            {children}
         </Comp>
     )
 }
