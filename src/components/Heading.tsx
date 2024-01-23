@@ -20,6 +20,7 @@ export default function Heading({
             className={clsx(
                 "font-bold leading-tight tracking-tight text-slate-300",
                 size === "xl" && "text-7xl md:text-9xl",
+                size === "lg" && "text-6xl md:text-6xl",
             )}
         >
 
