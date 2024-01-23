@@ -14,4 +14,4 @@ export default function Button ({
     label, 
     showIcon,
     className,
-})
+}: ButtonProps)
