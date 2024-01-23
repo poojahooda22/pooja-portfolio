@@ -28,6 +28,6 @@ export default function Heading({
         >
             {children}
         </Comp>
-    )
+    );
 }
 
