@@ -12,7 +12,7 @@ type AvatarProps = {
 export default function Avatar({ image, className}: AvatarProps) {
 
     return (
-        <div ref={Component}>
+        <div ref={component}>
             <div>
                 <PrismicNextImage
                     field={image}
