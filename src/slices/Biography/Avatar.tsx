@@ -9,9 +9,12 @@ type AvatarProps = {
 
 export default function Avatar({ image, className}: AvatarProps) {
     return (
-        <PrismicNextImage
-            field={image}
-            className=""
-        />
+
+        <div>
+            <div>
+
+            </div>
+        </div>
+        
     )
 }
