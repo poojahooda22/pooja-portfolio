@@ -20,7 +20,7 @@ export default function Avatar({ image, className}: AvatarProps) {
             gsap.fromTo(
                 ".avatar",
                 { opacity: 0, scale: 1.4},
-                
+                { scale: 1, opacity: 1.3, }
             )
         })
     })
