@@ -25,6 +25,8 @@ export default function Avatar({ image, className}: AvatarProps) {
 
             window.onmousemove = (e) => {
                 if(!component.current) return;
+                const componentRect = (component.current as HTMLElement).getBoundingClientRect()
+
                 
             }
         })
