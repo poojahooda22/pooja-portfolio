@@ -4,6 +4,7 @@ import { SliceComponentProps, PrismicRichText } from "@prismicio/react";
 import Heading from "@/components/Heading";
 import Button from "@/components/Button";
 import { PrismicNextImage } from "@prismicio/next";
+import Avatar from "./Avatar";
 
 /**
  * Props for `Biography`.
@@ -32,9 +33,9 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
           label={slice.primary.button_text}
         />
 
-        <PrismicNextImage 
-          field={slice.primary.avatar} 
-          className="row-start-1 max-w-sm md:col-start-2 md:row-end-3 rounded-xl" 
+        <Avatar 
+          image={slice.primary.avatar} 
+          className="row-start-1 max-w-sm md:col-start-2 md:row-end-3" 
         />
       </div>
     </Bounded>
