@@ -16,7 +16,11 @@ export default function Avatar({ image, className}: AvatarProps) {
     const component = useRef(null);
 
     useEffect(() => {
-        let ctx = gsap
+        let ctx = gsap.context(() => {
+            gsap.fromTo(
+                
+            )
+        })
     })
     return (
         <div ref={component} className={clsx("relative h-full w-full", className)}>
