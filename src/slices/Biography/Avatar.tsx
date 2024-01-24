@@ -1,3 +1,5 @@
+'use client';
+
 import { ImageField } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import { clsx } from "clsx";
@@ -17,7 +19,6 @@ export default function Avatar({ image, className}: AvatarProps) {
             <div>
                 <PrismicNextImage
                     field={image}
-                    className="row-start-1 max-w-sm md:col-start-2 md:row-end-3 rounded-xl"
                 />
             </div>
         </div>
