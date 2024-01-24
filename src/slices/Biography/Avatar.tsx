@@ -18,6 +18,8 @@ export default function Avatar({ image, className}: AvatarProps) {
     useEffect(() => {
         let ctx = gsap.context(() => {
             gsap.fromTo(
+                ".avatar",
+                { opacity: 0, scale: 1.4},
                 
             )
         })
