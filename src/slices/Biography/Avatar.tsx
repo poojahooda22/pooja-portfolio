@@ -3,7 +3,7 @@
 import { ImageField } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
 import { clsx } from "clsx";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
 
 
 type AvatarProps = {
@@ -13,6 +13,10 @@ type AvatarProps = {
 
 export default function Avatar({ image, className}: AvatarProps) {
     const component = useRef(null);
+
+    useEffect(() => {
+        let ctx = gsap
+    })
     return (
         <div ref={component} className={clsx("relative h-full w-full", className)}>
             <div className="avatar aspect-square overflow-hidden rounded-3xl border-2 border-slate-700 opacity-0f">
@@ -22,7 +26,7 @@ export default function Avatar({ image, className}: AvatarProps) {
                     imgixParams={{ q: 90 }}
                 />
                 <div 
-                    className="highlight absolute inset-0 hidden w-full scale-110 
+                    className="highlight absolute inset-0 hiddenf w-full scale-110 
                     bg-radient-to-tr from-transparent via-white to-transparent opacity-0f md:block"
                 >
                 </div>
