@@ -27,7 +27,7 @@ export default function Avatar({ image, className}: AvatarProps) {
                 if(!component.current) return;
                 const componentRect = (component.current as HTMLElement).getBoundingClientRect()
 
-                
+                const componentCenterX = componentRect.left + componentRect.width/2
             }
         })
     })
