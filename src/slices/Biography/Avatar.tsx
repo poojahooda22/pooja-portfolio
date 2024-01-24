@@ -28,6 +28,10 @@ export default function Avatar({ image, className}: AvatarProps) {
                 const componentRect = (component.current as HTMLElement).getBoundingClientRect()
 
                 const componentCenterX = componentRect.left + componentRect.width/2
+
+                let componentPercent = {
+                    x: (e.clientX - componentCenterX) / componentRect.width / 2
+                }
             }
         })
     })
