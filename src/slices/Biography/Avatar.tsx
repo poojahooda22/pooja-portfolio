@@ -16,7 +16,7 @@ export default function Avatar({ image, className}: AvatarProps) {
     const component = useRef(null);
     return (
         <div ref={component} className={clsx("relative h-full w-full", className)}>
-            <div>
+            <div className="avatar aspect-square ">
                 <PrismicNextImage
                     field={image}
                 />
