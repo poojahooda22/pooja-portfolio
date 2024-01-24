@@ -1,5 +1,7 @@
 import { ImageField } from "@prismicio/client";
 import { PrismicNextImage } from "@prismicio/next";
+import { Component } from "react";
+import { useRef } from "react";
 
 
 type AvatarProps = {
@@ -8,9 +10,9 @@ type AvatarProps = {
 };
 
 export default function Avatar({ image, className}: AvatarProps) {
-    return (
 
-        <div>
+    return (
+        <div ref={Component}>
             <div>
                 <PrismicNextImage
                     field={image}
