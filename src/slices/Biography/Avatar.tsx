@@ -21,7 +21,11 @@ export default function Avatar({ image, className}: AvatarProps) {
                 ".avatar",
                 { opacity: 0, scale: 1.4},
                 { scale: 1, opacity: 1.3, ease: "power3.inOut"}
-            )
+            );
+
+            window.onmousemove = (e) => {
+                
+            }
         })
     })
     return (
