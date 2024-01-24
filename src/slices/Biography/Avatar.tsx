@@ -12,7 +12,10 @@ export default function Avatar({ image, className}: AvatarProps) {
 
         <div>
             <div>
-
+                <PrismicNextImage
+                    field={image}
+                    className="row-start-1 max-w-sm md:col-start-2 md:row-end-3 rounded-xl"
+                />
             </div>
         </div>
         
