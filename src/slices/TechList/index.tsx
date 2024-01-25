@@ -19,7 +19,11 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
       <Heading size="lg" as="h2">
         {slice.primary.heading}
       </Heading>
-      {slice.items.map(({}))}
+      {slice.items.map(({tech_color, tech_name}, index) => (
+        <div>
+          
+        </div>
+      ))}
     </section>
   );
 };
