@@ -43,6 +43,8 @@ export default function Avatar({ image, className}: AvatarProps) {
                     duration: .5,
                 }, 0).to(".highlight", {
                     opacity: distFromCenter - 0.7,
+                    x: -10 + 20 & componentPercent.x,
+                    duration: .5
                 })
             }
         });
