@@ -49,7 +49,7 @@ export default function Avatar({ image, className}: AvatarProps) {
                 0
                 );
             };
-        });
+        }, component);
     }, []);
     
     return (
