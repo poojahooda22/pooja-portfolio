@@ -21,7 +21,11 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
       </Heading>
       {slice.items.map(({tech_color, tech_name}, index) => (
         <div key={index}>
-
+          {Array.from({length: 15}, (_, index) => (
+             <React.Fragment key={index}>
+              
+             </React.Fragment>
+          ))}
         </div>
       ))}
     </section>
