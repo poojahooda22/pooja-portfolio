@@ -41,6 +41,8 @@ export default function Avatar({ image, className}: AvatarProps) {
                 .to("avatar", {
                     rotation: gsap.utils.clamp(-2, 2, 5 * componentPercent.x),
                     duration: .5,
+                }, 0).to(".highlight", {
+                    
                 })
             }
         });
