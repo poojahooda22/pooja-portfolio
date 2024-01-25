@@ -24,7 +24,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
         <div key={index}>
           {Array.from({length: 15}, (_, index) => (
              <React.Fragment key={index}>
-                <span >
+                <span className="">
                   {tech_name}
                 </span>
              </React.Fragment>
