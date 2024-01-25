@@ -34,6 +34,13 @@ export default function Avatar({ image, className}: AvatarProps) {
                 }
 
                 let distFromCenter = 1 - Math.abs(componentPercent.x)
+
+                gsap.timeline({
+                    defalts: { duration: 0.5, overwrite: "auto", ease: "power3.out"},
+                })
+                .to("avatar", {
+                    
+                })
             }
         });
     });
