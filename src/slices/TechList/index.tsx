@@ -17,7 +17,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
       data-slice-variation={slice.variation}
     >
       <Heading size="lg" as="h2">
-
+        {slice.primary.heading}
       </Heading>
     </section>
   );
