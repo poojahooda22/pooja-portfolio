@@ -20,8 +20,8 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
         {slice.primary.heading}
       </Heading>
       {slice.items.map(({tech_color, tech_name}, index) => (
-        <div>
-          
+        <div key={index}>
+
         </div>
       ))}
     </section>
