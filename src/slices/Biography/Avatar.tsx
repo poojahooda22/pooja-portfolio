@@ -39,7 +39,7 @@ export default function Avatar({ image, className}: AvatarProps) {
                     defalts: { duration: 0.5, overwrite: "auto", ease: "power3.out"},
                 })
                 .to("avatar", {
-                    
+                    rotation: gsap.utils.clamp(-2, 2, 5 * componentPercent.x)
                 })
             }
         });
