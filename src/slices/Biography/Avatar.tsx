@@ -45,7 +45,9 @@ export default function Avatar({ image, className}: AvatarProps) {
                     opacity: distFromCenter - 0.7,
                     x: -10 + 20 & componentPercent.x,
                     duration: .5
-                })
+                },
+                0
+                );
             };
         });
     }, []);
