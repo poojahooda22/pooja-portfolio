@@ -1,6 +1,7 @@
 import Heading from "@/components/Heading";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
+import React from "react";
 
 /**
  * Props for `TechList`.
@@ -23,7 +24,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
         <div key={index}>
           {Array.from({length: 15}, (_, index) => (
              <React.Fragment key={index}>
-              
+
              </React.Fragment>
           ))}
         </div>
