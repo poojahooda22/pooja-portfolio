@@ -1,3 +1,4 @@
+import Heading from "@/components/Heading";
 import { Content } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 
@@ -15,7 +16,9 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      Placeholder component for tech_list (variation: {slice.variation}) Slices
+      <Heading>
+        
+      </Heading>
     </section>
   );
 };
