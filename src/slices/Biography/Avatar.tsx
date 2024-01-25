@@ -42,7 +42,7 @@ export default function Avatar({ image, className}: AvatarProps) {
                     rotation: gsap.utils.clamp(-2, 2, 5 * componentPercent.x),
                     duration: .5,
                 }, 0).to(".highlight", {
-                    
+                    opacity: distFromCenter - 0.7,
                 })
             }
         });
