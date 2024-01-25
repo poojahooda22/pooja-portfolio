@@ -1,0 +1,36 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "bark",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"tech_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "lovely",
+							"type": "Text"
+						}
+					],
+					[
+						"tech_color",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "#4e5477",
+							"type": "Color"
+						}
+					]
+				]
+			}
+		]
+	}
+]
