@@ -19,6 +19,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
       <Heading size="lg" as="h2">
         {slice.primary.heading}
       </Heading>
+      {slice.items.map(({}))}
     </section>
   );
 };
