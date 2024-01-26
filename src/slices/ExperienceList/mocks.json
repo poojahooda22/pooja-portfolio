@@ -2,7 +2,49 @@
 	{
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
-		"primary": {},
-		"items": []
+		"primary": {
+			"heading": {
+				"__TYPE__": "FieldContent",
+				"value": "sky",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"job_title",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "pipe",
+							"type": "Text"
+						}
+					],
+					[
+						"job_timeline",
+						{
+							"__TYPE__": "FieldContent",
+							"type": "Date",
+							"value": "2013-01-14"
+						}
+					],
+					[
+						"job_description",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Elit duis in ad. Commodo voluptate dolore irure nostrud duis irure excepteur ut consectetur deserunt officia consectetur. Culpa occaecat reprehenderit ea."
+									}
+								}
+							]
+						}
+					]
+				]
+			}
+		]
 	}
 ]
