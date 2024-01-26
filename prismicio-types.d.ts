@@ -378,6 +378,56 @@ export type BiographySlice = prismic.SharedSlice<
 >;
 
 /**
+ * Primary content in *ExperienceList → Primary*
+ */
+export interface ExperienceListSliceDefaultPrimary {
+  /**
+   * Heading field in *ExperienceList → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: experience_list.primary.heading
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  heading: prismic.KeyTextField;
+}
+
+/**
+ * Primary content in *ExperienceList → Items*
+ */
+export interface ExperienceListSliceDefaultItem {
+  /**
+   * Job Title field in *ExperienceList → Items*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: experience_list.items[].job_title
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  job_title: prismic.KeyTextField;
+
+  /**
+   * Job Timeline field in *ExperienceList → Items*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: experience_list.items[].job_timeline
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  job_timeline: prismic.DateField;
+
+  /**
+   * Job Description field in *ExperienceList → Items*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: experience_list.items[].job_description
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  job_description: prismic.RichTextField;
+}
+
+/**
  * Default variation for ExperienceList Slice
  *
  * - **API ID**: `default`
@@ -386,8 +436,8 @@ export type BiographySlice = prismic.SharedSlice<
  */
 export type ExperienceListSliceDefault = prismic.SharedSliceVariation<
   "default",
-  Record<string, never>,
-  never
+  Simplify<ExperienceListSliceDefaultPrimary>,
+  Simplify<ExperienceListSliceDefaultItem>
 >;
 
 /**
@@ -564,6 +614,8 @@ declare module "@prismicio/client" {
       BiographySliceVariation,
       BiographySliceDefault,
       ExperienceListSlice,
+      ExperienceListSliceDefaultPrimary,
+      ExperienceListSliceDefaultItem,
       ExperienceListSliceVariation,
       ExperienceListSliceDefault,
       HeroSlice,
