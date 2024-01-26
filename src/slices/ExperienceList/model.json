@@ -10,7 +10,41 @@
       "docURL": "...",
       "version": "initial",
       "description": "Default",
-      "imageUrl": ""
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {
+        "job_title": {
+          "type": "Text",
+          "config": {
+            "label": "Job Title",
+            "placeholder": ""
+          }
+        },
+        "job_timeline": {
+          "type": "Date",
+          "config": {
+            "label": "Job Timeline",
+            "placeholder": ""
+          }
+        },
+        "job_description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Job Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        }
+      }
     }
   ]
 }
