@@ -25,7 +25,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
 
         {slice.items.map(({ job_title, job_timeline, job_description}, index) => (
           <div key={index}
-            className="flex items-center justify-center"
+            className="flex items-center justify-center gap-4"
           >
 
           </div>
