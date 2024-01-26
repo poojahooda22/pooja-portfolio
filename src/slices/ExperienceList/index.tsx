@@ -27,6 +27,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
           <div key={index}
             className="flex items-center justify-center gap-4"
           >
+            {job_title}
 
           </div>
         ))}
