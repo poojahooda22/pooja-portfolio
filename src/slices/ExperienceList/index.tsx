@@ -29,11 +29,11 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
             className="flex flex-col  gap-2 ml-8 font-semibold text-xl"
           >
             {Array.from({ length: 1}, (_, index) => (
-              <React.Fragment key={index}>
+              <div key={index}>
                 <span className="text-2xl font-bold">{job_title}</span>
-                <span className="text-lg font-semibold">{job_timeline}</span>
+                <span className="text-lg font-semibold mb-8">{job_timeline}</span>
                 
-              </React.Fragment>
+              </div>
             ))}
 
           </div>
