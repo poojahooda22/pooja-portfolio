@@ -28,7 +28,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
             className="flex items-center  gap-4 ml-8 font-semibold text-xl"
           >
             {job_title}
-            <div className="text-slate-500 ">
+            <div className="text-slate-500 text-lg">
               {job_timeline}
             </div>
 
