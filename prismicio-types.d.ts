@@ -69,7 +69,10 @@ export type HomepageDocument<Lang extends string = string> =
     Lang
   >;
 
-type PageDocumentDataSlicesSlice = TechListSlice | BiographySlice;
+type PageDocumentDataSlicesSlice =
+  | ExperienceListSlice
+  | TechListSlice
+  | BiographySlice;
 
 /**
  * Content for Page documents
@@ -375,6 +378,36 @@ export type BiographySlice = prismic.SharedSlice<
 >;
 
 /**
+ * Default variation for ExperienceList Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ExperienceListSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Record<string, never>,
+  never
+>;
+
+/**
+ * Slice variation for *ExperienceList*
+ */
+type ExperienceListSliceVariation = ExperienceListSliceDefault;
+
+/**
+ * ExperienceList Shared Slice
+ *
+ * - **API ID**: `experience_list`
+ * - **Description**: ExperienceList
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type ExperienceListSlice = prismic.SharedSlice<
+  "experience_list",
+  ExperienceListSliceVariation
+>;
+
+/**
  * Primary content in *Hero → Primary*
  */
 export interface HeroSliceDefaultPrimary {
@@ -530,6 +563,9 @@ declare module "@prismicio/client" {
       BiographySliceDefaultPrimary,
       BiographySliceVariation,
       BiographySliceDefault,
+      ExperienceListSlice,
+      ExperienceListSliceVariation,
+      ExperienceListSliceDefault,
       HeroSlice,
       HeroSliceDefaultPrimary,
       HeroSliceVariation,
