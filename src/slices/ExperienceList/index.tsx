@@ -23,7 +23,11 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
           {slice.primary.heading}
         </Heading>
 
-        
+        {slice.items.map(({ job_title, job_timeline, job_description}, index) => (
+          <div>
+            
+          </div>
+        ))}
 
       </Bounded>
     </section>
