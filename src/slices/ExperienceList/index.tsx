@@ -27,7 +27,9 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
           <div key={index}
             className="flex flex-col  gap-2 ml-8 font-semibold text-xl"
           >
-            
+            {Array.from({ length: 1}, (_, index) => (
+              
+            ))}
 
           </div>
         ))}
