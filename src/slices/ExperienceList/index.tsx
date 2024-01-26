@@ -19,13 +19,13 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
       data-slice-variation={slice.variation}
     >
       <Bounded as="div">
-        <Heading as="h2" size="lg">
+        <Heading as="h2" size="lg" className="mb-8">
           {slice.primary.heading}
         </Heading>
 
         {slice.items.map(({ job_title, job_timeline, job_description}, index) => (
           <div key={index}
-            className="flex items-center justify-center gap-4"
+            className="flex items-center  gap-4"
           >
             {job_title}
 
