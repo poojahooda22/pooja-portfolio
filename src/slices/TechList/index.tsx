@@ -82,7 +82,8 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
           aria-label={tech_name || ""}
         >
           {Array.from({ length: 15 }, (_, index) => (
-            <React.Fragment key={index}>
+            <React.Fragment 
+            key={index}>
               <span
                 className={
                   "tech-item text-8xl font-extrabold uppercase tracking-tighter"
