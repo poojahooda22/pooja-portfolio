@@ -39,7 +39,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
               {job_timeline}
             </div>
               
-            </div>
+          </div>
           ))}
 
       </Bounded>
