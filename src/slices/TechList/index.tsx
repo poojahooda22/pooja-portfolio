@@ -83,7 +83,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
         >
           {Array.from({ length: 15 }, (_, index) => (
             <React.Fragment 
-            key={index}>
+              key={index}>
               <span
                 className={
                   "tech-item text-8xl font-extrabold uppercase tracking-tighter"
