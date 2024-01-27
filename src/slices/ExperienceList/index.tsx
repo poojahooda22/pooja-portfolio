@@ -23,7 +23,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
         as="div"
       >
         <Heading 
-        as="h2" size="lg" className="mb-8">
+          as="h2" size="lg" className="mb-8">
           {slice.primary.heading}
         </Heading>
 
