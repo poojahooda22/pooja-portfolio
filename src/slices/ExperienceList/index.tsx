@@ -25,7 +25,8 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
         <Heading 
           as="h2" 
           size="lg" 
-          className="mb-8">
+          className="mb-8"
+          >
           {slice.primary.heading}
         </Heading>
 
