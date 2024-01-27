@@ -417,14 +417,14 @@ export interface ExperienceListSliceDefaultItem {
   job_timeline: prismic.DateField;
 
   /**
-   * Job Description field in *ExperienceList → Items*
+   * Description field in *ExperienceList → Items*
    *
    * - **Field Type**: Rich Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: experience_list.items[].job_description
+   * - **API ID Path**: experience_list.items[].description
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
-  job_description: prismic.RichTextField;
+  description: prismic.RichTextField;
 }
 
 /**
