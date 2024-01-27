@@ -30,14 +30,14 @@
 						}
 					],
 					[
-						"job_description",
+						"description",
 						{
 							"__TYPE__": "StructuredTextContent",
 							"value": [
 								{
 									"type": "paragraph",
 									"content": {
-										"text": "Elit duis in ad. Commodo voluptate dolore irure nostrud duis irure excepteur ut consectetur deserunt officia consectetur. Culpa occaecat reprehenderit ea."
+										"text": "Irure amet ullamco nulla qui sit dolor velit fugiat aute."
 									}
 								}
 							]
