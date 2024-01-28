@@ -23,7 +23,7 @@ const Biography = ({ slice }: BiographyProps): JSX.Element => {
       <div 
         className="grid gap-x-8 gap-y-6 
         md:grid-cols-[2fr, 1fr]"
-        >
+      >
         <Heading as="h1" size="xl" 
           className="col-start-1">
           {slice.primary.heading}
