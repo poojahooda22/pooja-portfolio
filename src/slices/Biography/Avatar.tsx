@@ -63,7 +63,8 @@ export default function Avatar({ image, className}: AvatarProps) {
             >
                 <PrismicNextImage
                     field={image}
-                    className="avatar-image h-full w-full object-fill"
+                    className="avatar-image h-full 
+                    w-full object-fill"
                     imgixParams={{ q: 90 }}
                 />
                 <div 
