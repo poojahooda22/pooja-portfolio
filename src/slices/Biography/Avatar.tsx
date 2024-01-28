@@ -67,7 +67,8 @@ export default function Avatar({ image, className}: AvatarProps) {
                     imgixParams={{ q: 90 }}
                 />
                 <div 
-                    className="highlight absolute inset-0 hiddenf w-full scale-110 
+                    className="highlight absolute inset-0 hiddenf w-full 
+                    scale-110 
                     bg-radient-to-tr from-transparent via-white to-transparent opacity-0f md:block"
                 >
                 </div>
