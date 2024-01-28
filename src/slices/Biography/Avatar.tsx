@@ -69,7 +69,8 @@ export default function Avatar({ image, className}: AvatarProps) {
                 <div 
                     className="highlight absolute inset-0 hiddenf w-full 
                     scale-110 
-                    bg-radient-to-tr from-transparent via-white to-transparent opacity-0f md:block"
+                    bg-radient-to-tr from-transparent 
+                    via-white to-transparent opacity-0f md:block"
                 >
                 </div>
             </div>
