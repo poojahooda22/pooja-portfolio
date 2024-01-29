@@ -22,7 +22,7 @@ export default async function Header() {
                         >
                             <PrismicNextLink 
                                 field={link}
-                                >
+                            >
                                 {label}
                             </PrismicNextLink>
                         </li>
