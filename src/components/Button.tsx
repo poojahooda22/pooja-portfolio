@@ -18,7 +18,7 @@ export default function Button ({
 }: ButtonProps) {
     return (
         <PrismicNextLink 
-            field={linkField}
+            // field={linkField}
             className={clsx( "group relative flex w-fit text-slate-800 items-center justify-center overflow-hidden rounded-md border-2 border-slate-900 bg-slate-50 px-4 py-2 font-bold transition-transform ease-out hover:scale-105",
             className)}
         >
