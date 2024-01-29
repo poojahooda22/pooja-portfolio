@@ -22,7 +22,8 @@ export default function RootLayout({
        text-slate-100'
     >
       
-      <body className={inter.className}>
+      <body 
+      className={inter.className}>
         <Header />
         {children}
       </body>
