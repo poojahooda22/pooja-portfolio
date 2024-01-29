@@ -28,7 +28,8 @@ export default function Button ({
                 )}    
             >
             </span>
-            <span className="relative flex items-center justify-center gap-2">{label} {showIcon && <MdArrowOutward className="inline-block" /> }</span>
+            <span className="relative flex items-center justify-center gap-2">
+                {label} {showIcon && <MdArrowOutward className="inline-block" /> }</span>
         </PrismicNextLink>
     )
 }
