@@ -4,6 +4,7 @@ import { Content, isFilled } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 import { PrismicRichText} from '@prismicio/react';
 import { createClient } from "@/prismicio";
+import ContentList from './ContentList';
 
 /**
  * Props for `ContentIndex`.
@@ -13,7 +14,7 @@ export type ContentIndexProps = SliceComponentProps<Content.ContentIndexSlice>;
 /**
  * Component for "ContentIndex" Slices.
  */
-const ContentIndex =async  ({ slice }: ContentIndexProps): JSX.Element => {
+const ContentIndex = async  ({ slice }: ContentIndexProps): JSX.Element => {
 
 
   const client = createClient();
@@ -34,6 +35,8 @@ const ContentIndex =async  ({ slice }: ContentIndexProps): JSX.Element => {
           <PrismicRichText field={slice.primary.description} />
         </div>
       )}
+
+      <ContentList />
     </Bounded>
   );
 };
