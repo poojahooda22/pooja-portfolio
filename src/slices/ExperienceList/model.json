@@ -28,13 +28,6 @@
             "placeholder": ""
           }
         },
-        "job_timeline": {
-          "type": "Date",
-          "config": {
-            "label": "Job Timeline",
-            "placeholder": ""
-          }
-        },
         "description": {
           "type": "StructuredText",
           "config": {
@@ -42,6 +35,13 @@
             "placeholder": "",
             "allowTargetBlank": true,
             "single": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+          }
+        },
+        "job_timeline": {
+          "type": "Timestamp",
+          "config": {
+            "label": "Job Timeline",
+            "placeholder": ""
           }
         }
       }
