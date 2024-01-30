@@ -17,6 +17,8 @@ function ContentList({
     viewMoreText,
 }: ContentListProps) {
 
+    const urlPrefixes = contentType === "Blog" ? "/blog" : "/projects";
+
   return (
     <div>
       <ul className='grid border-b border-b-slate-100'>
