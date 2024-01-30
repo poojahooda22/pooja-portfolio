@@ -22,7 +22,7 @@ function ContentList({
         {items.map((item, index) => (
             <li 
                 key={index} 
-                className=''
+                className='flex flex-col'
             >
                 <a href="">
                     <div>
