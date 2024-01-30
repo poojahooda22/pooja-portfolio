@@ -2,6 +2,7 @@ import Bounded from "@/components/Bounded";
 import Heading from "@/components/Heading";
 import { Content, isFilled } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
+import { PrismicRichText} from '@prismicio/react';
 
 /**
  * Props for `ContentIndex`.
