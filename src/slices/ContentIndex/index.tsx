@@ -23,7 +23,7 @@ const ContentIndex = ({ slice }: ContentIndexProps): JSX.Element => {
       </Heading>
       {isFilled.richText(slice.primary.description) && (
         <div>
-          <PrismicRichText />
+          <PrismicRichText field={slice.primary.description} />
         </div>
       )}
     </Bounded>
