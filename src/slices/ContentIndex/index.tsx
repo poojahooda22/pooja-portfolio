@@ -18,7 +18,7 @@ const ContentIndex = ({ slice }: ContentIndexProps): JSX.Element => {
       data-slice-variation={slice.variation}
     >
       <Heading>
-        
+        {slice.primary.heading}
       </Heading>
     </Bounded>
   );
