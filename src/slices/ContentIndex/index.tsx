@@ -20,7 +20,7 @@ const ContentIndex = ({ slice }: ContentIndexProps): JSX.Element => {
       <Heading size="xl" className="mb-8">
         {slice.primary.heading}
       </Heading>
-      {isFilled.richText()}
+      {isFilled.richText(slice.primary)}
     </Bounded>
   );
 };
