@@ -3,6 +3,7 @@ import Heading from "@/components/Heading";
 import { Content, isFilled } from "@prismicio/client";
 import { SliceComponentProps } from "@prismicio/react";
 import { PrismicRichText} from '@prismicio/react';
+import { createClient } from "@/prismicio";
 
 /**
  * Props for `ContentIndex`.
