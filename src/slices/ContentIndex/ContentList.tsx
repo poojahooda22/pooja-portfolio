@@ -1,5 +1,6 @@
 import React from 'react'
 import { Content } from '@prismicio/client';
+import { MdArrowOutward } from 'react-icons/md';
 
 
 type ContentListProps = {
@@ -43,7 +44,9 @@ function ContentList({
                     </div>
                     <span
                         className='ml-auto flex items-center gap-2 text-xl font-medium md:ml-0 '
-                    >{viewMoreText}</span>
+                    >
+                        {viewMoreText}
+                    </span>
 
                 </a>
             </li>
