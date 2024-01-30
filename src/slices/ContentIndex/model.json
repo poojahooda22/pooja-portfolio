@@ -49,7 +49,7 @@
         "fallback_item_inage": {
           "type": "Image",
           "config": {
-            "label": "Fallback Item Inage",
+            "label": "Fallback Item Image",
             "constraint": {},
             "thumbnails": []
           }
