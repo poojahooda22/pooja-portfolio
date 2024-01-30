@@ -20,7 +20,9 @@ function ContentList({
     <div>
       <u className='grid border-b border-b-slate-100'>
         {items.map((item, index) => (
-            <li key={index}>
+            <li key={index} 
+                className=''
+            >
                 <a href="">
                     <div>
                         <span>{item.data.title}</span>
