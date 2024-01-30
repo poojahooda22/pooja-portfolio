@@ -31,7 +31,7 @@ function ContentList({
                 >
                     <div className='flex flex-col'>
                         <span className='text-3xl font-bold' >{item.data.title}</span>
-                        <div>
+                        <div className='flex gap-2 text-lg'>
                             {item.tags.map((tag, index) => (
                                 <span 
                                     key={index}
@@ -41,7 +41,9 @@ function ContentList({
                             ))}
                         </div>
                     </div>
-                    <span>{viewMoreText}</span>
+                    <span
+                        className='ml-auto flex '
+                    >{viewMoreText}</span>
 
                 </a>
             </li>
