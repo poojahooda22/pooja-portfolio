@@ -14,7 +14,7 @@ export type ContentIndexProps = SliceComponentProps<Content.ContentIndexSlice>;
 /**
  * Component for "ContentIndex" Slices.
  */
-const ContentIndex = async  ({ slice }: ContentIndexProps): JSX.Element => {
+const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element> => {
 
 
   const client = createClient();
