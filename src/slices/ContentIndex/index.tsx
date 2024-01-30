@@ -17,7 +17,7 @@ const ContentIndex = ({ slice }: ContentIndexProps): JSX.Element => {
 
 
   const client = createClient();
-  const blogPosts = await client.
+  const blogPosts = await client.getAllByType("blog_post");
 
 
 
