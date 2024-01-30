@@ -19,6 +19,7 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
 
   const client = createClient();
   const blogPosts = await client.getAllByType("blog_post");
+  const blogPosts = await client.getAllByType("blog_post");
 
 
 
