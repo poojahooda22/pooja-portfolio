@@ -1,0 +1,16 @@
+{
+  "id": "text_block1",
+  "type": "SharedSlice",
+  "name": "TextBlock1",
+  "description": "TextBlock1",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": ""
+    }
+  ]
+}
