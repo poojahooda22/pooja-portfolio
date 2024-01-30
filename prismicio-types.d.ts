@@ -44,6 +44,17 @@ interface BlogPostDocumentData {
   hover_image: prismic.ImageField<never>;
 
   /**
+   * Link field in *Blog Post*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: blog_post.link
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  link: prismic.LinkField;
+
+  /**
    * Slice Zone field in *Blog Post*
    *
    * - **Field Type**: Slice Zone
@@ -632,7 +643,7 @@ export interface ContentIndexSliceDefaultPrimary {
   view_more_text: prismic.KeyTextField;
 
   /**
-   * Fallback Item Inage field in *ContentIndex → Primary*
+   * Fallback Item Image field in *ContentIndex → Primary*
    *
    * - **Field Type**: Image
    * - **Placeholder**: *None*
