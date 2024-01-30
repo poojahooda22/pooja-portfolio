@@ -18,7 +18,7 @@ function ContentList({
 
   return (
     <div>
-      <ul>
+      <u className='grid border-b border-b-slate-100'>
         {items.map((item, index) => (
             <li key={index}>
                 <a href="">
@@ -32,12 +32,13 @@ function ContentList({
                             ))}
                         </div>
                     </div>
+                    <span>{viewMoreText}</span>
 
                 </a>
             </li>
         ))}
         
-      </ul>
+      </u>
     </div>
   )
 }
