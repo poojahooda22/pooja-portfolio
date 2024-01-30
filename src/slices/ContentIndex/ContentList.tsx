@@ -42,7 +42,7 @@ function ContentList({
                         </div>
                     </div>
                     <span
-                        className='ml-auto flex '
+                        className='ml-auto flex items-center gap-2 '
                     >{viewMoreText}</span>
 
                 </a>
