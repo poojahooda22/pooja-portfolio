@@ -8,4 +8,6 @@ export const components = {
   experience_list: dynamic(() => import("./ExperienceList")),
   hero: dynamic(() => import("./Hero")),
   tech_list: dynamic(() => import("./TechList")),
+  text_block: dynamic(() => import("./TextBlock")),
+  text_block1: dynamic(() => import("./TextBlock1")),
 };
