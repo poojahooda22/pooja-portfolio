@@ -33,7 +33,8 @@ function ContentList({
                 >
                     <Link 
                         href={urlPrefixes + "/" + item.uid}
-                        className='flex flex-col justify-between border-t border-t-slate-100 py-10 text-slate-200 md:flex-row'
+                        className='flex flex-col justify-between border-t 
+                        border-t-slate-100 py-10 text-slate-200 md:flex-row'
                     >
                         <div className='flex flex-col'>
                             <span className='text-3xl font-bold' >{item.data.title}</span>
