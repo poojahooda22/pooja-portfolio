@@ -1,6 +1,7 @@
 import React from 'react'
 import { Content } from '@prismicio/client';
 import { MdArrowOutward } from 'react-icons/md';
+import Link from 'next/link';
 
 
 type ContentListProps = {
@@ -28,8 +29,8 @@ function ContentList({
                 className='list-item opacity-0f'
                 
             >
-                <a 
-                    href=""
+                <Link 
+                    href={urlPrefixes + "/" + item.uid}
                     className='flex flex-col justify-between border-t border-t-slate-100 py-10 text-slate-200 md:flex-row'
                 >
                     <div className='flex flex-col'>
@@ -50,7 +51,7 @@ function ContentList({
                         {viewMoreText}
                     </span>
 
-                </a>
+                </Link>
             </li>
         ))}
         
