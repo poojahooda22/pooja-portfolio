@@ -57,7 +57,7 @@ function ContentList({
                 </li>
             ))}
         
-      </ul>
+        </ul>
     </div>
   )
 }
