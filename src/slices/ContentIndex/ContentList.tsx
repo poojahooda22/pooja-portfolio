@@ -22,7 +22,7 @@ function ContentList({
 
   return (
     <div>
-      <ul 
+        <ul 
         className='grid border-b border-b-slate-100'
         >
         {items.map((item, index) => (
