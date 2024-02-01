@@ -75,7 +75,8 @@ function ContentList({
         {/* Hover Images */}
 
         <div
-            className='hover-reveal pointer-events-none absolute lef-0 top-0 -z-10'
+            className='hover-reveal pointer-events-none absolute lef-0 top-0 
+            -z-10 h-[320px] w-[220px] rounded-lg bg-over'
         >
 
         </div>
