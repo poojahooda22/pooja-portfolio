@@ -161,7 +161,7 @@ export default function ContentList({
               </div>
               <span className="ml-auto flex items-center gap-2 text-xl font-medium md:ml-0">
                 
-                {viewMoreText} <MdArrowOutward />
+                {viewMoreText} {String(viewMoreLink)} <MdArrowOutward />
               </span>
             </a>
           </li>
