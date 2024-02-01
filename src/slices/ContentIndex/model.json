@@ -46,6 +46,14 @@
             "placeholder": ""
           }
         },
+        "view_more_link": {
+          "type": "Link",
+          "config": {
+            "label": "View More Link",
+            "placeholder": "",
+            "select": null
+          }
+        },
         "fallback_item_inage": {
           "type": "Image",
           "config": {
