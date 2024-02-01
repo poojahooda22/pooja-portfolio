@@ -6,6 +6,7 @@ import { MdArrowOutward } from 'react-icons/md';
 import Link from 'next/link';
 
 
+
 type ContentListProps = {
     items: Content.BlogPostDocument[] | Content.ProjectDocument[];
     contentType: Content.ContentIndexSlice["primary"]["content_type"];
@@ -78,7 +79,7 @@ function ContentList({
             className='hover-reveal pointer-events-none absolute lef-0 top-0 
             -z-10 h-[320px] w-[220px] rounded-lg bg-over bg-center opacity-0 transition-[background] duration-300'
             style={{
-                
+                backgroundImage: currentItem !== null ? `url(${contentImage[currentItem]})` : 
             }}
         >
 
