@@ -643,6 +643,16 @@ export interface ContentIndexSliceDefaultPrimary {
   view_more_text: prismic.KeyTextField;
 
   /**
+   * View More Link field in *ContentIndex → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: content_index.primary.view_more_link
+   * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
+   */
+  view_more_link: prismic.LinkField;
+
+  /**
    * Fallback Item Image field in *ContentIndex → Primary*
    *
    * - **Field Type**: Image
