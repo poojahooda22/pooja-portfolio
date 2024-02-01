@@ -1,5 +1,7 @@
+'use Client';
+
 import React from 'react'
-import { Content } from '@prismicio/client';
+import { Content, isFilled } from '@prismicio/client';
 import { MdArrowOutward } from 'react-icons/md';
 import Link from 'next/link';
 
@@ -26,40 +28,45 @@ function ContentList({
             className='grid border-b border-b-slate-100'
         >
             {items.map((item, index) => (
-                <li 
-                    key={index} 
-                    className='list-item opacity-0f'
-                    
-                >
-                    <Link 
-                        href={urlPrefixes + "/" + item.uid}
-                        className='flex flex-col justify-between border-t 
-                        border-t-slate-100 py-10 text-slate-200 
-                        md:flex-row'
-                        aria-label={item.data.title}
-                    >
-                        <div className='flex flex-col'>
-                            <span className='text-3xl font-bold' >{item.data.title}</span>
-                            <div className='flex gap-2 text-lg'>
-                                {item.tags.map((tag, index) => (
-                                    <span 
-                                        key={index}
-                                        className='text-yellow-500'>
-                                        {tag}
-                                    </span>
-                                ))}
-                            </div>
-                        </div>
-                        <span
-                            className='ml-auto flex items-center 
-                            gap-2 
-                            text-xl font-medium md:ml-0 '
-                        >
-                            {viewMoreText}
-                        </span>
+                <>
+                {isFilled.keyText(item.data.title) && (
 
-                    </Link>
-                </li>
+                
+                    <li 
+                        key={index} 
+                        className='list-item opacity-0f'
+                        
+                    >
+                        <Link 
+                            href={urlPrefixes + "/" + item.uid}
+                            className='flex flex-col justify-between border-t 
+                            border-t-slate-100 py-10 text-slate-200 
+                            md:flex-row'
+                            aria-label={item.data.title}
+                        >
+                            <div className='flex flex-col'>
+                                <span className='text-3xl font-bold' >{item.data.title}</span>
+                                <div className='flex gap-2 text-lg'>
+                                    {item.tags.map((tag, index) => (
+                                        <span 
+                                            key={index}
+                                            className='text-yellow-500'>
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+                            <span
+                                className='ml-auto flex items-center 
+                                gap-2 
+                                text-xl font-medium md:ml-0 '
+                            >
+                                {viewMoreText} <MdArrowOutward />
+                            </span>
+                        </Link>
+                    </li>
+                    )}
+                </>
             ))}
         
         </ul>
