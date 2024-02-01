@@ -723,6 +723,16 @@ export interface ExperienceListSliceDefaultItem {
   job_title: prismic.KeyTextField;
 
   /**
+   * Job Timeline field in *ExperienceList → Items*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: experience_list.items[].job_timeline
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  job_timeline: prismic.DateField;
+
+  /**
    * Description field in *ExperienceList → Items*
    *
    * - **Field Type**: Rich Text
@@ -733,14 +743,14 @@ export interface ExperienceListSliceDefaultItem {
   description: prismic.RichTextField;
 
   /**
-   * Job Timeline field in *ExperienceList → Items*
+   * Institution field in *ExperienceList → Items*
    *
-   * - **Field Type**: Timestamp
+   * - **Field Type**: Text
    * - **Placeholder**: *None*
-   * - **API ID Path**: experience_list.items[].job_timeline
-   * - **Documentation**: https://prismic.io/docs/field#timestamp
+   * - **API ID Path**: experience_list.items[].institution
+   * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  job_timeline: prismic.TimestampField;
+  institution: prismic.KeyTextField;
 }
 
 /**
