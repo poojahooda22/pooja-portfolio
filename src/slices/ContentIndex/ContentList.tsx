@@ -159,8 +159,7 @@ export default function ContentList({
               <span className="ml-auto flex items-center gap-2 text-xl font-medium md:ml-0">
                 <Button 
                     linkField={post.data.button_link}
-                    label={post.data.button_text}
-                    
+                    label={post.data.button_text}   
                 />
               </span>
               
