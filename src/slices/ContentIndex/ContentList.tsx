@@ -14,16 +14,13 @@ type ContentListProps = {
   items: Content.BlogPostDocument[] | Content.ProjectDocument[];
   contentType: Content.ContentIndexSlice["primary"]["content_type"];
   fallbackItemImage: Content.ContentIndexSlice["primary"]["fallback_item_inage"];
-  viewMoreText: Content.ContentIndexSlice["primary"]["view_more_text"];
-    viewMoreLink: Content.ContentIndexSlice["primary"]["view_more_link"];
+ 
 };
 
 export default function ContentList({
   items,
   contentType,
   fallbackItemImage,
-  viewMoreText = "Read More",
-  viewMoreLink,
 }: ContentListProps) {
   const component = useRef(null);
   const itemsRef = useRef<Array<HTMLLIElement | null>>([]);
@@ -160,9 +157,13 @@ export default function ContentList({
                 </div>
               </div>
               <span className="ml-auto flex items-center gap-2 text-xl font-medium md:ml-0">
-                
-                {viewMoreText} {String(viewMoreLink)} <MdArrowOutward />
+                <Button 
+                    linkField={post.data.button_link}
+                    label={post.data.button_text}
+                    
+                />
               </span>
+              
             </a>
           </li>
         ))}

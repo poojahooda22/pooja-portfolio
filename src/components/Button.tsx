@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { MdArrowOutward } from "react-icons/md";
 
 type ButtonProps = {
-    linkField: LinkField;
+    linkField: LinkField ;
     label: KeyTextField;
     showIcon?: boolean;
     className?: string;

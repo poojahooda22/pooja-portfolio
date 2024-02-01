@@ -5,6 +5,8 @@ import { SliceComponentProps } from "@prismicio/react";
 import { PrismicRichText} from '@prismicio/react';
 import { createClient } from "@/prismicio";
 import ContentList from './ContentList';
+import Button from "@/components/Button";
+
 
 /**
  * Props for `ContentIndex`.
@@ -44,7 +46,9 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
       <ContentList 
         items={items} contentType={contentType} viewMoreText={slice.primary.view_more_text} viewMoreLink={slice.primary.view_more_link}
         fallbackItemImage={slice.primary.fallback_item_inage}
+        
       />
+      
     </Bounded>
   );
 };

@@ -34,10 +34,17 @@
           "thumbnails": []
         }
       },
-      "link": {
+      "button_text": {
+        "type": "Text",
+        "config": {
+          "label": "Button Text",
+          "placeholder": ""
+        }
+      },
+      "button_link": {
         "type": "Link",
         "config": {
-          "label": "Link",
+          "label": "Button Link",
           "placeholder": "",
           "select": null
         }

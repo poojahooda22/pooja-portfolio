@@ -44,15 +44,26 @@ interface BlogPostDocumentData {
   hover_image: prismic.ImageField<never>;
 
   /**
-   * Link field in *Blog Post*
+   * Button Text field in *Blog Post*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: blog_post.button_text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  button_text: prismic.KeyTextField;
+
+  /**
+   * Button Link field in *Blog Post*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: blog_post.link
+   * - **API ID Path**: blog_post.button_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link: prismic.LinkField;
+  button_link: prismic.LinkField;
 
   /**
    * Slice Zone field in *Blog Post*
@@ -283,15 +294,26 @@ interface ProjectDocumentData {
   hover_image: prismic.ImageField<never>;
 
   /**
-   * Link field in *Project*
+   * Button text field in *Project*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: project.button_text
+   * - **Tab**: Main
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  button_text: prismic.KeyTextField;
+
+  /**
+   * Button Link field in *Project*
    *
    * - **Field Type**: Link
    * - **Placeholder**: *None*
-   * - **API ID Path**: project.link
+   * - **API ID Path**: project.button_link
    * - **Tab**: Main
    * - **Documentation**: https://prismic.io/docs/field#link-content-relationship
    */
-  link: prismic.LinkField;
+  button_link: prismic.LinkField;
 
   /**
    * Slice Zone field in *Project*
