@@ -25,8 +25,8 @@
 						"job_timeline",
 						{
 							"__TYPE__": "FieldContent",
-							"type": "Timestamp",
-							"value": "2019-10-22T11:26:33Z"
+							"type": "Date",
+							"value": "2021-03-14"
 						}
 					],
 					[
@@ -41,6 +41,14 @@
 									}
 								}
 							]
+						}
+					],
+					[
+						"institution",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "dirty",
+							"type": "Text"
 						}
 					]
 				]
