@@ -23,7 +23,7 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
 
   const contentType = slice.primary.content_type || 'Blog';
 
-  const items = contentType === "Blog" ? blogPosts : projects;
+  const items = contentType === "Blog" ? projects : blogPosts;
 
 
 
