@@ -29,7 +29,7 @@
           }
         },
         "job_timeline": {
-          "type": "Date",
+          "type": "Text",
           "config": {
             "label": "Job Timeline",
             "placeholder": ""
