@@ -1,4 +1,4 @@
-'use Client';
+'use client';
 
 import React, { useRef, useState, useEffect } from "react";
 import { Content, isFilled } from '@prismicio/client';
@@ -27,8 +27,8 @@ function ContentList({
     const urlPrefix = contentType === "Blog" ? "/blog" : "/projects";
 
     const contentImages = items.map((item) => {
-        const image = isFilled.image(item.data.image)
-          ? item.data.image
+        const image = isFilled.image(item.data.hover_image)
+          ? item.data.hover_image
           : fallbackItemImage;
         return asImageSrc(image, {
           fit: "crop",
@@ -42,10 +42,14 @@ function ContentList({
         setCurrentItem(index);
     }
 
+    const onMouseLeave = () => {
+        setCurrentItem(null);
+    }
   return (
     <div ref={component}>
         <ul 
             className='grid border-b border-b-slate-100'
+            onMouseLeave={onMouseLeave}
         >
             {items.map((item, index) => (
                 <>
@@ -87,7 +91,6 @@ function ContentList({
                     )}
                 </>
             ))}
-        
         </ul>
 
 
@@ -97,7 +100,7 @@ function ContentList({
             className='hover-reveal pointer-events-none absolute lef-0 top-0 
             -z-10 h-[320px] w-[220px] rounded-lg bg-over bg-center opacity-0 transition-[background] duration-300'
             style={{
-                backgroundImage: currentItem !== null ? `url(${contentImages[currentItem]})` : 
+                backgroundImage: currentItem !== null ? `url(${contentImages[currentItem]})` : ""
             }}
         >
 
