@@ -23,7 +23,7 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
 
   const contentType = slice.primary.content_type || 'Blog';
 
-  const items = contentType === "Blog" ? projects : blogPosts;
+  const items = contentType === "Blog" ?  blogPosts : projects;
 
 
 
@@ -42,7 +42,7 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
       )}
 
       <ContentList 
-        items={items} contentType={contentType} viewMoreText={slice.primary.view_more_text} 
+        items={items} contentType={contentType} viewMoreText={slice.primary.view_more_text} viewMoreLink={slice.primary.view_more_link}
         fallbackItemImage={slice.primary.fallback_item_inage}
       />
     </Bounded>
