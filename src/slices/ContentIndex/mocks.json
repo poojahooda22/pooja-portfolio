@@ -24,11 +24,6 @@
 					}
 				]
 			},
-			"view_more_text": {
-				"__TYPE__": "FieldContent",
-				"value": "string",
-				"type": "Text"
-			},
 			"fallback_item_inage": {
 				"origin": {
 					"id": "main",
@@ -51,13 +46,6 @@
 				"alt": null,
 				"__TYPE__": "ImageContent",
 				"thumbnails": {}
-			},
-			"view_more_link": {
-				"__TYPE__": "LinkContent",
-				"value": {
-					"__TYPE__": "ExternalLink",
-					"url": "https://prismic.io"
-				}
 			}
 		},
 		"items": []
