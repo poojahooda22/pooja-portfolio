@@ -6,6 +6,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdArrowOutward } from "react-icons/md";
 import { Content } from "@prismicio/client";
+import Button from "@/components/Button";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -14,6 +15,7 @@ type ContentListProps = {
   contentType: Content.ContentIndexSlice["primary"]["content_type"];
   fallbackItemImage: Content.ContentIndexSlice["primary"]["fallback_item_inage"];
   viewMoreText: Content.ContentIndexSlice["primary"]["view_more_text"];
+    viewMoreLink: Content.ContentIndexSlice["primary"]["view_more_link"];
 };
 
 export default function ContentList({
@@ -21,6 +23,7 @@ export default function ContentList({
   contentType,
   fallbackItemImage,
   viewMoreText = "Read More",
+  viewMoreLink,
 }: ContentListProps) {
   const component = useRef(null);
   const itemsRef = useRef<Array<HTMLLIElement | null>>([]);
@@ -157,6 +160,7 @@ export default function ContentList({
                 </div>
               </div>
               <span className="ml-auto flex items-center gap-2 text-xl font-medium md:ml-0">
+                
                 {viewMoreText} <MdArrowOutward />
               </span>
             </a>
