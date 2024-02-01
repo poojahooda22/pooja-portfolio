@@ -6,7 +6,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { MdArrowOutward } from "react-icons/md";
 import { Content } from "@prismicio/client";
-import Button from "@/components/Button";
+import Button from "@/components/Button1";
+import Button1 from "@/components/Button1";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -157,7 +158,7 @@ export default function ContentList({
                 </div>
               </div>
               <span className="ml-auto flex items-center gap-2 text-xl font-medium md:ml-0">
-                <Button 
+                <Button1 
                     linkField={post.data.button_link}
                     label={post.data.button_text}   
                 />
