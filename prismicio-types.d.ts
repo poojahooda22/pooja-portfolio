@@ -243,7 +243,7 @@ interface PageDocumentData {
 export type PageDocument<Lang extends string = string> =
   prismic.PrismicDocumentWithUID<Simplify<PageDocumentData>, "page", Lang>;
 
-type ProjectDocumentDataSlicesSlice = TextBlock1Slice;
+type ProjectDocumentDataSlicesSlice = never;
 
 /**
  * Content for Project documents
@@ -725,12 +725,12 @@ export interface ExperienceListSliceDefaultItem {
   /**
    * Job Timeline field in *ExperienceList → Items*
    *
-   * - **Field Type**: Date
+   * - **Field Type**: Text
    * - **Placeholder**: *None*
    * - **API ID Path**: experience_list.items[].job_timeline
-   * - **Documentation**: https://prismic.io/docs/field#date
+   * - **Documentation**: https://prismic.io/docs/field#key-text
    */
-  job_timeline: prismic.DateField;
+  job_timeline: prismic.KeyTextField;
 
   /**
    * Description field in *ExperienceList → Items*
