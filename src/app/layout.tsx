@@ -35,7 +35,8 @@ export default function RootLayout({
           background-gradient'>
 
         </div>
-        <div className="absolute pointer-events-none inset-0 -z-40 h-full 
+        <div 
+          className="absolute pointer-events-none inset-0 -z-40 h-full 
         bg-[url('/noisetexture.jpg')] opacity-20
         mix-blend-soft-light "
          >
