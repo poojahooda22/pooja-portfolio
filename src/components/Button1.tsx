@@ -29,7 +29,8 @@ export default function Button1 ({
             >
             </span> */}
             <span 
-                className="relative flex items-center justify-center gap-2"
+                className="relative flex items-center 
+                justify-center gap-2"
             >
                 {label} {showIcon && <MdArrowOutward className="inline-block" /> }
             </span>
