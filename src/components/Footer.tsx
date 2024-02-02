@@ -57,7 +57,8 @@ export default async function Footer() {
                 </li>
                 {index < settings.data.nav_item.length - 1 && (
                   <span
-                    className="text-4xl font-thin leading-[0] text-slate-400"
+                    className="text-4xl font-thin leading-[0] 
+                    text-slate-400"
                     aria-hidden="true"
                   >
                     /
