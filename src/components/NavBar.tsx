@@ -137,7 +137,8 @@ function DesktopMenu({
                     : "translate-y-8",
                 )}
               />
-              <span className="relative">{label}</span>
+              <span className="relative">
+                {label}</span>
             </PrismicNextLink>
           </li>
           {index < settings.data.nav_item.length - 1 && (
