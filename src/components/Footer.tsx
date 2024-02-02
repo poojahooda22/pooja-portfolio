@@ -69,7 +69,8 @@ export default async function Footer() {
           </ul>
         </nav>
         <div 
-          className="socials inline-flex justify-center sm:justify-end">
+          className="socials inline-flex justify-center 
+          sm:justify-end">
           {isFilled.link(settings.data.github_link) && (
             <PrismicNextLink
               field={settings.data.github_link}
