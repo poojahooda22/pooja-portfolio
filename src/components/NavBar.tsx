@@ -138,7 +138,8 @@ function DesktopMenu({
                 )}
               />
               <span className="relative">
-                {label}</span>
+                {label}
+                </span>
             </PrismicNextLink>
           </li>
           {index < settings.data.nav_item.length - 1 && (
