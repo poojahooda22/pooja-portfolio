@@ -29,7 +29,8 @@ export default async function Footer() {
             {settings.data.name}
           </Link>
           <span
-            className="hidden text-5xl font-extralight leading-[0] text-slate-400 sm:inline"
+            className="hidden text-5xl font-extralight 
+            leading-[0] text-slate-400 sm:inline"
             aria-hidden={true}
           >
             /
