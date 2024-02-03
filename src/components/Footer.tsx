@@ -28,7 +28,8 @@ export default async function Footer() {
           <Link
             href="/"
             className="text-xl font-extrabold tracking-tighter 
-            text-slate-100 transition-colors duration-150 hover:text-yellow-400"
+            text-slate-100 transition-colors duration-150 
+            hover:text-yellow-400"
           >
             {settings.data.name}
           </Link>
