@@ -14,7 +14,8 @@ export default async function Header() {
             max-w-7xl 
             md:sticky md:top-4'
         >
-            <NavBar settings={settings} />
+            <NavBar 
+            settings={settings} />
         </header>
     )
 }
