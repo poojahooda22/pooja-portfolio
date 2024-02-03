@@ -139,7 +139,7 @@ function DesktopMenu({
               />
               <span 
                 className="relative"
-                >
+              >
                 {label}
               </span>
             </PrismicNextLink>
