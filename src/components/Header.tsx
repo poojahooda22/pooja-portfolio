@@ -16,7 +16,7 @@ export default async function Header() {
         >
             <NavBar 
                 settings={settings} 
-                />
+            />
         </header>
     )
 }
