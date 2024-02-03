@@ -101,7 +101,7 @@ export default async function Footer() {
               hover:text-yellow-400"
               aria-label={settings.data.name + " on Leetcode"}
             >
-              < SiLeetcode />
+              {/* < SiLeetcode /> */}
             </PrismicNextLink>
           )}
           {isFilled.link(settings.data.linkedin_link) && (
