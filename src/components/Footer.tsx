@@ -55,7 +55,7 @@ export default async function Footer() {
           >
             {settings.data.nav_item.map(({ link, label }, index) => (
               <React.Fragment 
-              key={label}>
+                key={label}>
                 <li>
                   <PrismicNextLink
                     className={clsx(
