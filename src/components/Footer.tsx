@@ -42,7 +42,7 @@ export default async function Footer() {
           </span>
           <p 
             className=" text-sm text-slate-300 "
-            >
+          >
             © {new Date().getFullYear()} {settings.data.name}
           </p>
         </div>
