@@ -90,7 +90,7 @@ export default async function Footer() {
               duration-150 hover:scale-125 hover:text-yellow-400"
               aria-label={settings.data.name + " on GitHub"}
             >
-              <FaGithub />
+              {/* <FaGithub /> */}
             </PrismicNextLink>
           )}
           {isFilled.link(settings.data.leetcode_link) && (
