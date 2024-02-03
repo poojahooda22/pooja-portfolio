@@ -14,7 +14,8 @@ export default async function Footer() {
   return (
     <Bounded 
       as="footer" 
-      className="text-slate-600">
+      className="text-slate-600"
+      >
       <div 
         className="container mx-auto mt-20 flex flex-col items-center 
         justify-between gap-6 py-8 sm:flex-row "
