@@ -17,7 +17,8 @@ export default async function Footer() {
       className="text-slate-600"
     >
       <div 
-        className="container mx-auto mt-20 flex flex-col items-center 
+        className="container mx-auto mt-20 flex 
+        flex-col items-center 
         justify-between gap-6 py-8 sm:flex-row "
       >
         <div 
