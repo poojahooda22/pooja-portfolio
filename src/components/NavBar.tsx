@@ -118,7 +118,8 @@ function DesktopMenu({
     <div 
       className="relative z-50 hidden 
       flex-row 
-      items-center gap-1 bg-transparent py-0 md:flex"
+      items-center gap-1 bg-transparent 
+      py-0 md:flex"
     >
       {settings.data.nav_item.map(({ link, label }, index) => (
         <React.Fragment key={label}>
