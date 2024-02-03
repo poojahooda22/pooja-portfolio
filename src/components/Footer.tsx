@@ -49,7 +49,7 @@ export default async function Footer() {
         <nav 
           className="navigation" 
           aria-label="Footer Navigation"
-          >
+        >
           <ul 
             className="flex items-center gap-1"
           >
