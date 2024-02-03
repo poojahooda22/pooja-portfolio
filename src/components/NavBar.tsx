@@ -138,7 +138,8 @@ function DesktopMenu({
                 )}
               />
               <span 
-                className="relative">
+                className="relative"
+                >
                 {label}
               </span>
             </PrismicNextLink>
