@@ -10,3 +10,19 @@
         hsla(222, 0%, 0%, 0) 100%
     );
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 6px; 
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #0F172A;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 50px;
+  }
