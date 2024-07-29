@@ -22,8 +22,7 @@ export default function RootLayout({
       lang="en" 
       className='bg-slate-900
       text-slate-100'
-    >
-      
+    > 
       <body 
         className={clsx(inter.className, "relative min-h-screen")}
       >
