@@ -22,8 +22,7 @@ export default function RootLayout({
       lang="en" 
       className='bg-slate-900
       text-slate-100'
-    >
-      
+    > 
       <body 
         className={clsx(inter.className, "relative min-h-screen")}
       >
@@ -32,15 +31,16 @@ export default function RootLayout({
         <Footer/>
         <div 
           className='absolute inset-0 -z-50 max-h-screen 
-          background-gradient'>
+          background-gradient'
+        >
         </div>
         <div 
           className="absolute pointer-events-none 
           inset-0 -z-40 h-full 
           bg-[url('/noisetexture.jpg')] opacity-20
           mix-blend-soft-light "
-         >
-         </div>
+        >
+        </div>
       </body>
     </html>
   )
