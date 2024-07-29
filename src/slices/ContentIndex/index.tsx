@@ -45,8 +45,7 @@ const ContentIndex = async  ({ slice }: ContentIndexProps): Promise<JSX.Element>
 
       <ContentList 
         items={items} contentType={contentType} 
-        fallbackItemImage={slice.primary.fallback_item_inage}
-        
+        fallbackItemImage={slice.primary.fallback_item_inage}  
       />
       
     </Bounded>
