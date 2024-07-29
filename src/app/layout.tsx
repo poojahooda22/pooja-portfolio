@@ -41,7 +41,7 @@ export default function RootLayout({
           bg-[url('/noisetexture.jpg')] opacity-20
           mix-blend-soft-light "
         >
-         </div>
+        </div>
       </body>
     </html>
   )
