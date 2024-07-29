@@ -29,7 +29,8 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
         </Heading>
 
         <div className="mt-1 flex w-fit items-center 
-          gap-1 text-2xl font-semibold tracking-tight text-slate-400">
+          gap-1 text-2xl font-semibold 
+          tracking-tight text-slate-400">
           <span>{item.job_timeline}</span>{" "}
           <span className="text-3xl font-extralight">/</span>{" "}
           <span>{item.institution}</span>
