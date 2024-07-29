@@ -21,7 +21,7 @@ export default function RootLayout({
     <html 
       lang="en" 
       className='bg-slate-900
-       text-slate-100'
+      text-slate-100'
     >
       
       <body 
@@ -33,7 +33,6 @@ export default function RootLayout({
         <div 
           className='absolute inset-0 -z-50 max-h-screen 
           background-gradient'>
-
         </div>
         <div 
           className="absolute pointer-events-none 
