@@ -33,7 +33,6 @@ export default function RootLayout({
         <div 
           className='absolute inset-0 -z-50 max-h-screen 
           background-gradient'>
-
         </div>
         <div 
           className="absolute pointer-events-none 
