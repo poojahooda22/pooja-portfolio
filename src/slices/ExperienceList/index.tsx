@@ -18,7 +18,7 @@ const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
     <Bounded
     data-slice-type={slice.slice_type}
     data-slice-variation={slice.variation}
-  >
+    >
     <Heading as="h2" size="lg">
       {slice.primary.heading}
     </Heading>
