@@ -16,7 +16,7 @@ export type ExperienceListProps =
 const ExperienceList = ({ slice }: ExperienceListProps): JSX.Element => {
   return (
     <Bounded
-    data-slice-type={slice.slice_type}
+      data-slice-type={slice.slice_type}
     data-slice-variation={slice.variation}
     >
     <Heading as="h2" size="lg">
