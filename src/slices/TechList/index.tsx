@@ -93,8 +93,7 @@ const TechList = ({ slice }: TechListProps): JSX.Element => {
                 {tech_name}
               </span>
               <span 
-                className="text-3xl"
-              >
+                className="text-3xl">
                 <MdCircle />
               </span>
             </React.Fragment>
